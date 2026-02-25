@@ -1,1 +1,2 @@
--r ../../shared/requirements.txthttpx==0.25.2
+-r shared/requirements.txt
+httpx==0.25.2
