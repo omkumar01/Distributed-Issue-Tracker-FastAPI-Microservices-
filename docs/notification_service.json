@@ -1,0 +1,28 @@
+{
+  "service": "notification-service",
+  "purpose": "Async user notifications",
+  "tech_stack": {
+    "workers": "Celery",
+    "messaging": "RabbitMQ",
+    "email": "SMTP",
+    "cache": "Redis"
+  },
+  "features": [
+    "Email notifications",
+    "In-app notifications",
+    "Webhook delivery",
+    "Retry & DLQ"
+  ],
+  "structure": {
+    "consumers": {
+      "issue_events.py": "Issue notifications",
+      "comment_events.py": "Mention alerts"
+    },
+    "channels": {
+      "email.py": "Email sender",
+      "in_app.py": "UI notifications",
+      "webhook.py": "External hooks"
+    },
+    "templates": "Notification templates"
+  }
+}

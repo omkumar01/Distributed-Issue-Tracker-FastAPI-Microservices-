@@ -1,0 +1,40 @@
+{
+  "service": "issue-service",
+  "purpose": "Core issue tracking domain",
+  "tech_stack": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "cache": "Redis",
+    "search": "Elasticsearch",
+    "messaging": "RabbitMQ"
+  },
+  "features": [
+    "Issue CRUD",
+    "Workflow transitions",
+    "Priority & severity",
+    "Assignment",
+    "Labels & tags",
+    "SLA tracking"
+  ],
+  "structure": {
+    "api": {
+      "issues.py": "CRUD APIs",
+      "workflow.py": "State transitions",
+      "labels.py": "Tagging"
+    },
+    "domain": {
+      "issue.py": "Issue aggregate",
+      "workflow.py": "Finite state machine",
+      "sla.py": "Time tracking rules"
+    },
+    "cache": "Hot issue caching",
+    "events": {
+      "publish": [
+        "issue.created",
+        "issue.updated",
+        "issue.status.changed",
+        "issue.assigned"
+      ]
+    }
+  }
+}

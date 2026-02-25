@@ -1,0 +1,25 @@
+{
+  "service": "search-service",
+  "purpose": "Read-optimized full-text search",
+  "tech_stack": {
+    "framework": "FastAPI",
+    "search_engine": "Elasticsearch",
+    "messaging": "RabbitMQ"
+  },
+  "features": [
+    "Full-text search",
+    "Filters & facets",
+    "Auto indexing",
+    "Re-indexing"
+  ],
+  "structure": {
+    "api": {
+      "search.py": "Search endpoints"
+    },
+    "indexers": {
+      "issue_indexer.py": "Issue documents",
+      "comment_indexer.py": "Comment documents"
+    },
+    "consumers": "Event-driven indexing"
+  }
+}

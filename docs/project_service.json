@@ -1,0 +1,30 @@
+{
+  "service": "project-service",
+  "purpose": "Workspace and project management",
+  "tech_stack": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "cache": "Redis",
+    "messaging": "RabbitMQ"
+  },
+  "features": [
+    "Project lifecycle",
+    "Member management",
+    "Project-level RBAC",
+    "Settings & metadata"
+  ],
+  "structure": {
+    "api": {
+      "projects.py": "Create/update projects",
+      "members.py": "Add/remove users",
+      "permissions.py": "Project roles"
+    },
+    "domain": {
+      "project.py": "Project aggregate",
+      "membership.py": "User-project mapping"
+    },
+    "events": {
+      "publish": ["project.created", "project.member.added"]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "service": "user-service",
+  "purpose": "User identity, profiles, and team membership",
+  "tech_stack": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "cache": "Redis",
+    "messaging": "RabbitMQ",
+    "observability": "OpenTelemetry"
+  },
+  "features": [
+    "User profile management",
+    "Role assignment",
+    "Team membership",
+    "Preferences",
+    "Avatar & metadata"
+  ],
+  "structure": {
+    "api": {
+      "users.py": "CRUD operations",
+      "roles.py": "Role mapping",
+      "teams.py": "Team membership"
+    },
+    "domain": {
+      "user.py": "User aggregate root",
+      "role.py": "RBAC domain model"
+    },
+    "db": "User tables & migrations",
+    "events": {
+      "publish": ["user.updated"],
+      "consume": ["user.created"]
+    }
+  }
+}

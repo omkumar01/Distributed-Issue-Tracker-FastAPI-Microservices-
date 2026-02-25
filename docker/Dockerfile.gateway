@@ -1,0 +1,12 @@
+# API Gateway using Traefik
+FROM traefik:v2.10
+
+EXPOSE 8000 8080
+
+COPY ./config/traefik.yml /etc/traefik/traefik.yml
+COPY ./config/dynamic.yml /etc/traefik/dynamic.yml
+
+HEALTHCHECK --interval=10s --timeout=5s --retries=5 \
+    CMD curl -f http://localhost:8080/ping || exit 1
+
+CMD ["--config.file=/etc/traefik/traefik.yml"]

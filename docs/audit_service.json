@@ -1,0 +1,22 @@
+{
+  "service": "audit-service",
+  "purpose": "Compliance & activity history",
+  "tech_stack": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "messaging": "RabbitMQ"
+  },
+  "features": [
+    "Immutable activity logs",
+    "Who-did-what tracking",
+    "Retention policies",
+    "Compliance exports"
+  ],
+  "structure": {
+    "consumers": "All domain events",
+    "api": {
+      "history.py": "Audit retrieval"
+    },
+    "retention": "Data lifecycle policies"
+  }
+}

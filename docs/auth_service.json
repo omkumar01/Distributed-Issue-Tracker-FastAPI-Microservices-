@@ -1,0 +1,41 @@
+{
+  "service": "auth-service",
+  "purpose": "Centralized authentication and token management",
+  "tech_stack": {
+    "language": "Python 3.12",
+    "framework": "FastAPI",
+    "auth": ["JWT", "OAuth2"],
+    "database": "PostgreSQL",
+    "cache": "Redis",
+    "observability": ["OpenTelemetry", "Prometheus"],
+    "container": "Docker"
+  },
+  "features": [
+    "User login & logout",
+    "JWT access & refresh tokens",
+    "Token revocation",
+    "OAuth2 integration",
+    "Password hashing",
+    "Account lockout & throttling"
+  ],
+  "structure": {
+    "app": {
+      "main.py": "FastAPI entrypoint",
+      "api": {
+        "login.py": "Credential based login",
+        "refresh.py": "Token refresh",
+        "oauth.py": "OAuth providers"
+      },
+      "core": {
+        "jwt.py": "Token creation & validation",
+        "security.py": "Hashing & encryption",
+        "config.py": "Environment config"
+      },
+      "models": "User credentials & tokens",
+      "schemas": "Pydantic request/response models",
+      "db": "SQLAlchemy async models",
+      "middleware": "Rate limiting & tracing",
+      "observability": "Tracing & metrics setup"
+    }
+  }
+}

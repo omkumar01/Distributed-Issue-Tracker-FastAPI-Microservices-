@@ -1,0 +1,27 @@
+{
+  "service": "comment-service",
+  "purpose": "Collaboration & discussion",
+  "tech_stack": {
+    "framework": "FastAPI",
+    "database": "PostgreSQL",
+    "websocket": "FastAPI WebSockets",
+    "messaging": "RabbitMQ"
+  },
+  "features": [
+    "Issue comments",
+    "Mentions",
+    "Edit history",
+    "Real-time updates"
+  ],
+  "structure": {
+    "api": {
+      "comments.py": "Add/edit/delete comments"
+    },
+    "websocket": {
+      "realtime.py": "Live updates"
+    },
+    "events": {
+      "publish": ["comment.added", "user.mentioned"]
+    }
+  }
+}
