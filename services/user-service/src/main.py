@@ -2,56 +2,77 @@
 
 from fastapi import FastAPI
 from fastapi.responses import JSONResponse
-from fastapi.middleware.cors import CORSMiddleware
 import logging
+import os
+from contextlib import asynccontextmanager
 
-from src.routers import user_router
+from opentelemetry import trace
+from opentelemetry.instrumentation.fastapi import FastAPIInstrumentor
+from opentelemetry.sdk.trace import TracerProvider
+from opentelemetry.sdk.trace.export import BatchSpanProcessor
+from opentelemetry.exporter.jaeger.thrift import JaegerExporter
 
-# Configure logging
+from src.db.database import engine, Base
+from src.api.users import router as users_router
+from src.api.teams import router as teams_router
+from src.api.roles import router as roles_router
+from src.events.consume import start_consumer_thread
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Create FastAPI app
+# Try to setup telemetry but fail gracefully if jaeger host not available
+try:
+    if not trace.get_tracer_provider():
+        trace.set_tracer_provider(TracerProvider())
+        jaeger_host = os.getenv("JAEGER_AGENT_HOST", "jaeger")
+        jaeger_exporter = JaegerExporter(
+            agent_host_name=jaeger_host,
+            agent_port=6831,
+        )
+        trace.get_tracer_provider().add_span_processor(
+            BatchSpanProcessor(jaeger_exporter)
+        )
+except Exception as e:
+    logger.warning(f"Could not initialize OpenTelemetry exporter: {e}")
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Setup DB
+    async with engine.begin() as conn:
+        await conn.run_sync(Base.metadata.create_all)
+        
+    # Start consumer
+    start_consumer_thread()
+    
+    yield
+    # Teardown
+    await engine.dispose()
+
 app = FastAPI(
     title="User Service",
     description="User profile and team management",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
-# Add CORS middleware
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+# Instrument the FastAPI app
+try:
+    FastAPIInstrumentor.instrument_app(app)
+except Exception:
+    pass
 
-# Include routers
-app.include_router(user_router.router, prefix="/api/v1/users", tags=["users"])
-
+app.include_router(users_router, prefix="/api/v1/users", tags=["users"])
+app.include_router(teams_router, prefix="/api/v1/teams", tags=["teams"])
+app.include_router(roles_router, prefix="/api/v1/roles", tags=["roles"])
 
 @app.get("/health")
 async def health_check():
-    """Health check endpoint."""
     return {"status": "healthy", "service": "user-service"}
-
 
 @app.get("/")
 async def root():
-    """Root endpoint."""
     return {"message": "User Service API", "version": "1.0.0"}
-
-
-@app.exception_handler(Exception)
-async def global_exception_handler(request, exc):
-    """Global exception handler."""
-    logger.error(f"Exception: {exc}")
-    return JSONResponse(
-        status_code=500,
-        content={"error": "Internal Server Error", "detail": str(exc)}
-    )
-
 
 if __name__ == "__main__":
     import uvicorn

@@ -1,6 +1,6 @@
 """API Gateway - Entry point for all client requests."""
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 import httpx
@@ -25,11 +25,15 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Service URLs
+# Service URLs mapping top-level resource to backend service
 SERVICE_URLS = {
     "auth": "http://auth-service:8000",
     "users": "http://user-service:8000",
+    "teams": "http://user-service:8000",
+    "roles": "http://user-service:8000",
     "projects": "http://project-service:8000",
+    "members": "http://project-service:8000",
+    "permissions": "http://project-service:8000",
     "issues": "http://issue-service:8000",
     "comments": "http://comment-service:8000",
     "notifications": "http://notification-service:8000",
@@ -58,8 +62,10 @@ async def root():
 async def list_services():
     """List all available services."""
     services = []
+    # De-duplicate services by URL for health checking
+    unique_urls = {name: url for name, url in SERVICE_URLS.items()}
     async with httpx.AsyncClient() as client:
-        for service_name, url in SERVICE_URLS.items():
+        for service_name, url in unique_urls.items():
             try:
                 response = await client.get(f"{url}/health", timeout=5)
                 if response.status_code == 200:
@@ -80,19 +86,9 @@ async def list_services():
 
 
 @app.api_route("/api/v1/{path:path}", methods=["GET", "POST", "PUT", "DELETE", "PATCH"])
-async def gateway_router(path: str, request):
+async def gateway_router(path: str, request: Request):
     """
     Route requests to appropriate services.
-    
-    Routes:
-    - /api/v1/auth/* -> Auth Service
-    - /api/v1/users/* -> User Service
-    - /api/v1/projects/* -> Project Service
-    - /api/v1/issues/* -> Issue Service
-    - /api/v1/comments/* -> Comment Service
-    - /api/v1/notifications/* -> Notification Service
-    - /api/v1/search/* -> Search Service
-    - /api/v1/audit/* -> Audit Service
     """
     
     # Extract service name from path
@@ -101,14 +97,14 @@ async def gateway_router(path: str, request):
         raise HTTPException(status_code=400, detail="Invalid path")
     
     service_name = service_parts[0]
-    remaining_path = "/".join(service_parts[1:])
     
     # Route to appropriate service
     if service_name not in SERVICE_URLS:
-        raise HTTPException(status_code=400, detail=f"Unknown service: {service_name}")
+        raise HTTPException(status_code=400, detail=f"Unknown service route: {service_name}")
     
     service_url = SERVICE_URLS[service_name]
-    target_url = f"{service_url}/api/v1/{remaining_path}"
+    # Pass the entirely unmodified path to the microservices, because their routers EXPECT the prefix!
+    target_url = f"{service_url}/api/v1/{path}"
     
     try:
         async with httpx.AsyncClient() as client:

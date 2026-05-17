@@ -1,0 +1,897 @@
+{
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\test_pika.py": {
+    "mtime": 1773860794.2976673,
+    "ast_hash": "5e449eabdbf050ce752cdfa8b3f5b79c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\scripts\\migrate_db.sh": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "b5d7577d3ab04a5531229609d7e05d18",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\scripts\\seed_database.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d3fa743e624c3e3fb7ae9801a2989bf0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\scripts\\seed_db.sh": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "a8216f7d018ca88d57b464ee59f646a2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\scripts\\setup.sh": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "9bd9c0a910ac96714343a7ba76c02832",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\api-gateway\\main.py": {
+    "mtime": 1773860147.255363,
+    "ast_hash": "d0dba37065019cb5aeca527b6f2a040a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\examples.py": {
+    "mtime": 1770925497.7943923,
+    "ast_hash": "e506690fb0482f84a4b04a95aeef1c6a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\config.py": {
+    "mtime": 1770927176.5471609,
+    "ast_hash": "906e0b3822008fe642fec4d7be5365eb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\database.py": {
+    "mtime": 1770930334.4680457,
+    "ast_hash": "9e98305acb68a515eddf9ef28d75d175",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\main.py": {
+    "mtime": 1770930334.4680457,
+    "ast_hash": "087daf1099d36cb347c2ceb2ea99f2ba",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "eff6b7a756cf3a38b9be84a6868d0c47",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\models\\audit_log.py": {
+    "mtime": 1770925027.1484528,
+    "ast_hash": "68a88e06573dd617b018e654f990f459",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\models\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "f35e766c4283f24703fed256e9725f32",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\repositories\\audit_repository.py": {
+    "mtime": 1770925027.1484528,
+    "ast_hash": "37a417ecada4776eafdc879b4485a2e9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "0f10e31570180062edc01e89919802e1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\routers\\audit_router.py": {
+    "mtime": 1771354764.0762694,
+    "ast_hash": "e6410200572262368984edd709226aad",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "cae4d7b4e9513ff9c33b14ecbd0b3d2c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\schemas\\audit.py": {
+    "mtime": 1771354641.7663915,
+    "ast_hash": "dd940c5a65bf20225c20df3da5b93459",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\schemas\\__init__.py": {
+    "mtime": 1770925027.1484528,
+    "ast_hash": "ff4c269063910988002a2b5d0333d90b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\services\\audit_service.py": {
+    "mtime": 1770925027.1528203,
+    "ast_hash": "525347fe36f714e2bc5aa5d6a053af3b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\services\\event_consumer.py": {
+    "mtime": 1771354501.6566446,
+    "ast_hash": "1930298f41990940330e9e781e485667",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "74042e649c74f6ad369a51691a58c553",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\tests\\conftest.py": {
+    "mtime": 1771352778.358359,
+    "ast_hash": "147b6997774e6efbfebe087366a7806c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\tests\\test_event_consumer.py": {
+    "mtime": 1771352915.0859017,
+    "ast_hash": "8a94e552be75d85d4c6c382dde50ab62",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\tests\\test_repositories.py": {
+    "mtime": 1771352887.4322884,
+    "ast_hash": "91394f457ba57281abb04785b97ff277",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\tests\\test_routes.py": {
+    "mtime": 1771354732.769687,
+    "ast_hash": "7ee6a87ef2da14d6f586abfbd56e1658",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\tests\\test_schemas.py": {
+    "mtime": 1771352809.928607,
+    "ast_hash": "a43bb2b1df4120e65463f95c0102d6d0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\tests\\test_services.py": {
+    "mtime": 1771352810.7131104,
+    "ast_hash": "c3558ea59145f58efd49572ef6d7a1dc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\database.py": {
+    "mtime": 1770990398.0939977,
+    "ast_hash": "99d6246b0c9c00bfb8b6c6e25325f329",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\main.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "3c7bb5cee999493d45978216f2af8a23",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "ea54ef3d2871664c386a4d0c1955e88b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\core\\config.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "64fc95925b7015d7da14ca1191e1a57d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\core\\jwt.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "a1fbe1ecbce36082ee4782314352667f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\core\\security.py": {
+    "mtime": 1770991164.6468956,
+    "ast_hash": "2d85e7cce063711789d860a3bca3e6fe",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\core\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "1b4f45dd38540862130e0db45680f44b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\middleware\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "75e5ea03ed50234825351a0e1a7fbc70",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\models\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "6217aac541c83664310beeef4ae11fac",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\observability\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "fb3e416eda30e712d5151f1d413a7786",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "a844dcf6ca36e8f88e4da90b3e7000ff",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\routers\\auth_router.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "bab44ee5ca2bb5cef0270cc4b578457d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\routers\\login.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "36e6cae5af8f809869dd3db01c0bcaf2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\routers\\oauth.py": {
+    "mtime": 1770989360.5543168,
+    "ast_hash": "16969146ab0c1f44bc689f554ab28808",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\routers\\refresh.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "5dbc1bf21fa7f0c176c68be6d7181357",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\routers\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "07accdc392e4556b19212386b1e8bbdc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\schemas\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "155a2d48227cea63955237ba843b5ca9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\src\\services\\__init__.py": {
+    "mtime": 1770989360.549329,
+    "ast_hash": "7de47eb7a974e573920109205278c5cb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\conftest.py": {
+    "mtime": 1771352944.7423801,
+    "ast_hash": "52d84c61735a1e95f1d069d2723cc106",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\test_jwt.py": {
+    "mtime": 1771352991.3248055,
+    "ast_hash": "feef100d1f1fccd4b67c7b8c51ed6226",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\test_repositories.py": {
+    "mtime": 1771353036.7647128,
+    "ast_hash": "c440c998cac1cb67ce87afd06816043b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\test_routes.py": {
+    "mtime": 1771353057.3806827,
+    "ast_hash": "fe7227ea5b5e7dfa4d58ba2c64ade80f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\test_schemas.py": {
+    "mtime": 1771353008.7124097,
+    "ast_hash": "41405cef986bbc84eabbd7904c5212f6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\test_security.py": {
+    "mtime": 1771352958.6716008,
+    "ast_hash": "1d07dec4d3192fdcce3cfb591536f986",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\tests\\test_services.py": {
+    "mtime": 1771353056.60358,
+    "ast_hash": "85fd3d3a631793807f9de284541c845a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\database.py": {
+    "mtime": 1771606533.1933768,
+    "ast_hash": "0d984587d522727981149e3ca32623bd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\main.py": {
+    "mtime": 1771606888.8623135,
+    "ast_hash": "a70ce4b6cbeb5430ead02ae00c6b6e93",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d14713c78b06bfd967ae0656aec9737c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\core\\config.py": {
+    "mtime": 1771606532.3993914,
+    "ast_hash": "677d2740c039139601aed1f655d923dc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\events\\publisher.py": {
+    "mtime": 1771606655.4212613,
+    "ast_hash": "2ce9596f375bf6b61285f554893c9cdd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\models\\comment.py": {
+    "mtime": 1771606583.7664518,
+    "ast_hash": "c5e4f42fbf2752b20f8d8777a1727fbf",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\models\\__init__.py": {
+    "mtime": 1771606534.028642,
+    "ast_hash": "65f0327a02aa1d2e14203c1c14dbbf82",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\repositories\\comment_repository.py": {
+    "mtime": 1771606590.6062715,
+    "ast_hash": "7c9bcea9936a88e0aefa4722257c36d5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "b8df54a2ab667c4cd8836dccfe23bd5b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\routers\\comment_router.py": {
+    "mtime": 1771606767.0704606,
+    "ast_hash": "6db9c91155661c0337df7b9ec55fbaeb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\routers\\realtime.py": {
+    "mtime": 1771606827.8514638,
+    "ast_hash": "691b57e8d61f3529009ba3ff25c5184b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "8051aeaf9b95853b48a281c77260f25a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\schemas\\comment.py": {
+    "mtime": 1771606589.8187985,
+    "ast_hash": "2de5367210b794a3b6d21cfd250ca3dc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\services\\comment_service.py": {
+    "mtime": 1771606656.2097516,
+    "ast_hash": "495cc0b9e965b5a4a947b3577b88cb81",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "264c4306c4d7575c29528786baa42909",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\tests\\conftest.py": {
+    "mtime": 1771606961.2182422,
+    "ast_hash": "eed3ff714ff68e41bb26332611729788",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\tests\\test_service_logic.py": {
+    "mtime": 1771606962.0186706,
+    "ast_hash": "954310b5de83a0b050c99dc43ca9f671",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\tests\\__init__.py": {
+    "mtime": 1771607033.5634363,
+    "ast_hash": "62bba9e763cd8d048adcd8779769407c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\database.py": {
+    "mtime": 1771344708.21924,
+    "ast_hash": "99d6246b0c9c00bfb8b6c6e25325f329",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\main.py": {
+    "mtime": 1771345018.758868,
+    "ast_hash": "2fdb2963de998c1e4584b3b906c5113e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "8a94be4c92257ea541a35c2122c5d9a0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\core\\config.py": {
+    "mtime": 1771344707.3733284,
+    "ast_hash": "56df6f901a985eccfea38faf17dd1711",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\domain\\issue.py": {
+    "mtime": 1771344067.2016337,
+    "ast_hash": "6821fd6127a607f45f9b0339bf4468b8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\domain\\sla.py": {
+    "mtime": 1771344066.4271803,
+    "ast_hash": "a4a261a81bcd3106f8f342476e225ff4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\domain\\workflow.py": {
+    "mtime": 1771344058.4727788,
+    "ast_hash": "2e446a39f69ed9cded3f4d62e7ef3543",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\events\\publisher.py": {
+    "mtime": 1771345313.2849975,
+    "ast_hash": "dce676de720ed18ac60337ab816ea64e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\models\\issue.py": {
+    "mtime": 1771344620.0076232,
+    "ast_hash": "a9eb81e4c0a24140b42f5658afd87a9e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\models\\__init__.py": {
+    "mtime": 1771344619.201567,
+    "ast_hash": "2990c143c531b320d25c4a3d110f9e44",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\repositories\\issue_repository.py": {
+    "mtime": 1771344736.6570728,
+    "ast_hash": "2657d96da95a9c1eae421e21bb1ddbab",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "a418c557397c96b0ec1034102e045ea4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\routers\\issue_router.py": {
+    "mtime": 1771345205.0960224,
+    "ast_hash": "337a4b021301376d2aa7595e7079d6a2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\routers\\workflow_router.py": {
+    "mtime": 1771344777.2913587,
+    "ast_hash": "8021d9c62c731c539fe0d5e56fc0b6ed",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "9772ebba85b632049753b7a5c52c3d74",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\services\\issue_service.py": {
+    "mtime": 1771345495.3529992,
+    "ast_hash": "1b4308b61a350e33340463ae6f0590f6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "5155168963229851a62d87ea342bed34",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\tests\\conftest.py": {
+    "mtime": 1771354100.106568,
+    "ast_hash": "c4f1f19bb61dab2561c63355945f1060",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\tests\\test_api_mocked.py": {
+    "mtime": 1771353998.4547677,
+    "ast_hash": "f2906613d4382a7b1a49ae4a5761f9ba",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\tests\\test_issue_service.py": {
+    "mtime": 1771353904.709212,
+    "ast_hash": "1eb66d982347b93106b502f733243775",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\tests\\test_repositories.py": {
+    "mtime": 1771353880.7739925,
+    "ast_hash": "ff8b86c9b930f501c5f0713d2ed793a0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\tests\\test_service_logic.py": {
+    "mtime": 1771353933.876047,
+    "ast_hash": "fde1a58877c273c087f53abfa90d38ee",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\main.py": {
+    "mtime": 1773860947.5728393,
+    "ast_hash": "deac9b405f586946e51e8f09a3c4b766",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "f861adfbb767a87cbc3b88bb6e4aa5c6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\channels\\email.py": {
+    "mtime": 1773858299.5250747,
+    "ast_hash": "5c18664339976ce43618450f1290a1d9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\channels\\in_app.py": {
+    "mtime": 1773858301.5272417,
+    "ast_hash": "a7fce4d63016f5430b8ef89defea8670",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\channels\\webhook.py": {
+    "mtime": 1773858304.1567204,
+    "ast_hash": "f387114fed0006f0357158ea6039b4f7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\consumers\\comment_events.py": {
+    "mtime": 1773858308.1380148,
+    "ast_hash": "6a8c55774e3b4ede0555035319537cc5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\consumers\\issue_events.py": {
+    "mtime": 1773858307.363214,
+    "ast_hash": "856dcf6d8cde794497588f5c0d38dd9f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\models\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "5dd178babb2d3deb268e8749887649c9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "b2e328fa28eefb94eeb627761ee43c60",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\routers\\notification_router.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "a257087c51fdf76072f91d240111497b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "956bee93b7b3ba2cb7d1d97c42e37fe9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "b5c777a9d7af23072d41bc21081a4922",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\tests\\test_notifications.py": {
+    "mtime": 1773858321.8597763,
+    "ast_hash": "6521ef8abd1270deb55f4a10729623e4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\main.py": {
+    "mtime": 1773858525.7327294,
+    "ast_hash": "8fb4e126930f52b41c31f55a9a72227c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "690ca0bf7a4ca8354a6ec131db4218c0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\api\\members.py": {
+    "mtime": 1773858505.0405638,
+    "ast_hash": "915cf7675a67c7b01b64752d233be242",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\api\\permissions.py": {
+    "mtime": 1773858505.8263063,
+    "ast_hash": "2af060b9144b3dc1b8927b7228f4c9e7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\api\\projects.py": {
+    "mtime": 1773858502.458433,
+    "ast_hash": "81dae4d09dec9af3585d00225c1700cb",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\db\\database.py": {
+    "mtime": 1773858469.0858123,
+    "ast_hash": "be56d7f51f094e9cbe474e5d03634531",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\domain\\membership.py": {
+    "mtime": 1773858473.1223047,
+    "ast_hash": "3a5f95945ea5c949468ead853d72b502",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\domain\\project.py": {
+    "mtime": 1773858472.0913687,
+    "ast_hash": "fdec80e21aea200f8739197c92dab91f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\events\\publish.py": {
+    "mtime": 1773860927.4234505,
+    "ast_hash": "8dd728b6dfa056ba1d3066d61448d717",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\models\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "c4e26528eac9cf382e58b03f80887ab5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "280fae063e533d780eeaebe7ad511b10",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\routers\\project_router.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "f6d6323bea16e1e26436e3ee3250957b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "6b1fdce4c10747bdb0196218893f0586",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "bda86fbc47f2bcca882796d81e93d95d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\tests\\conftest.py": {
+    "mtime": 1773858532.1856968,
+    "ast_hash": "bd6af95af8d8757fb83960562ff378b7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\tests\\test_projects.py": {
+    "mtime": 1773858533.006693,
+    "ast_hash": "822bd1ea310265fdd42339a3817d11a0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\main.py": {
+    "mtime": 1773858592.235899,
+    "ast_hash": "88ff09efa9c2dbaff847664d7e10e1fc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "3404c9e505b2cd3f5fa9dc68ce7794ff",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\api\\search.py": {
+    "mtime": 1773858574.4353318,
+    "ast_hash": "b3c9a8dca1fcc6533491a8dc916721b9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\consumers\\event_consumers.py": {
+    "mtime": 1773860925.8893304,
+    "ast_hash": "21ab9e582d975985a3de488849bbdc58",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\indexers\\es_client.py": {
+    "mtime": 1773858567.6640818,
+    "ast_hash": "e10f9297574c33637ddb3ac0dfd1ef0b",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\indexers\\issue_indexer.py": {
+    "mtime": 1773858569.878126,
+    "ast_hash": "840a8613d99c1a7462b655d75db92108",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\models\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "4ec4a2a2dacf927a4986f0a244d85e93",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "e9f7cd29a96a438f7277ca5926c8d164",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\routers\\search_router.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "1958065d65b791cb0a358a8ae675d2e4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "82ffe6c5786bc86d84c52ca36c42fbc3",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "372352b136db5bd8f0fcc623c9830969",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\tests\\test_search.py": {
+    "mtime": 1773858595.0524943,
+    "ast_hash": "ec306a6899cd1b0a8cf68e1ba5f5adc2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\main.py": {
+    "mtime": 1773858665.317167,
+    "ast_hash": "e8f27868b41fba6e3abacbaf541c21d9",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "7204b0b07a8e76d13805e5d7028f6cbd",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\api\\roles.py": {
+    "mtime": 1773858664.5259452,
+    "ast_hash": "8c77159e1e0f3a08aad0d093dbeb489c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\api\\teams.py": {
+    "mtime": 1773858658.4876702,
+    "ast_hash": "12031b1723f56718175f8130758aca57",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\api\\users.py": {
+    "mtime": 1773858636.4808369,
+    "ast_hash": "38f1ace35dd82f18c92af0c3dcbfb2ea",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\db\\database.py": {
+    "mtime": 1773858609.1365283,
+    "ast_hash": "0f2be9b23280922c476adcbdd6932368",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\domain\\role.py": {
+    "mtime": 1773858612.3507137,
+    "ast_hash": "f5d994501f4460497a1e2e39a6a68db8",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\domain\\user.py": {
+    "mtime": 1773860361.9241168,
+    "ast_hash": "f466370c34bee457f9dce8bd6ff784a1",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\events\\consume.py": {
+    "mtime": 1773860363.6253452,
+    "ast_hash": "b0c689247bf8ecd9acf5900dfe69a3f5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\events\\publish.py": {
+    "mtime": 1773860450.3127291,
+    "ast_hash": "8dd728b6dfa056ba1d3066d61448d717",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\models\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "c3ff183197e6b1425e0bd162e0149e98",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\repositories\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "1c38b25183dfbed4d8685a6d5cae5560",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\routers\\user_router.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "5e64a9e05538aa436e54d5e966d2f925",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\routers\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d4473036920b2c1578189a19040feeea",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\src\\services\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "44783f7158d23e7f90292cccdb523134",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\tests\\conftest.py": {
+    "mtime": 1773858682.3370676,
+    "ast_hash": "da87dc0c4fcfb6b6ae4bdcd32ac41b4e",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\tests\\test_users.py": {
+    "mtime": 1773858685.4365022,
+    "ast_hash": "ae86964e1f4d4a137b62879bad771034",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "8cc2b1f766ed2e2b2bb53555e854c7d4",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\core\\__init__.py": {
+    "mtime": 1770927208.0003698,
+    "ast_hash": "676afc452af29b31552b314423984081",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\events\\schemas.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "029875cb079365dfa6009b2b7cc0b8bc",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\events\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "cf30414541a74555d050236bb753cf3c",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\schemas\\__init__.py": {
+    "mtime": 1771354022.0196705,
+    "ast_hash": "2363546def3eb1b016f16e63d0bc504a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\utils\\exceptions.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "181ef8b61bbd60678caf7e0aa9772ce6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\utils\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "f737335ddc5680a83039dc501e11ae72",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\tests\\conftest.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "55c8b966bbb99f9d611778f322a3d01f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\tests\\test_e2e_gateway.py": {
+    "mtime": 1773860129.5880983,
+    "ast_hash": "14e6be18e0d9cccfc9a73d1d2d418e33",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\tests\\test_health_checks.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "26285621ffa94c6d9de3313eb3a1f5a7",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\tests\\__init__.py": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "58165c449885a98565d930ddea6a20e0",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\docker-compose.yml": {
+    "mtime": 1771000597.3959894,
+    "ast_hash": "2d0b81f776fababef7e6e603259041ee",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\PROJECT_STRUCTURE.md": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "0c1f2fdf79b388b6ef54e4127eb0cb1d",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\README.md": {
+    "mtime": 1771000640.1960113,
+    "ast_hash": "4a66cfdad4ac11168a6575a99730a42f",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\.github\\workflows\\ci-cd.yml": {
+    "mtime": 1770926050.073918,
+    "ast_hash": "2c25e51c9c1e0293003512c579e65fc2",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\api-gateway\\requirements.txt": {
+    "mtime": 1772037209.4451325,
+    "ast_hash": "8ee60599a224af471e6f11d69aece9d5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\README.md": {
+    "mtime": 1770925091.187884,
+    "ast_hash": "7fa32ac5ecfc949fa0e5c7186da38e98",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\audit-service\\requirements.txt": {
+    "mtime": 1770926717.6102748,
+    "ast_hash": "f963a647923dea8ffc8ff4062fb4dbe5",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\README.md": {
+    "mtime": 1770991381.9365788,
+    "ast_hash": "cd66f08fe82b021b38212d80d182a90a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\requirements.txt": {
+    "mtime": 1770991164.6468956,
+    "ast_hash": "236bac2b3795a4f0d327d550250b48a6",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\auth-service\\TESTING.md": {
+    "mtime": 1770990886.4832978,
+    "ast_hash": "b9e4872e61e8d85f6478c0ad6a74388a",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\comment-service\\requirements.txt": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d5ba6356cfa911c1eaa4bdb3616a0e49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\issue-service\\requirements.txt": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d5ba6356cfa911c1eaa4bdb3616a0e49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\notification-service\\requirements.txt": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d5ba6356cfa911c1eaa4bdb3616a0e49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\project-service\\requirements.txt": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d5ba6356cfa911c1eaa4bdb3616a0e49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\search-service\\requirements.txt": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d5ba6356cfa911c1eaa4bdb3616a0e49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\services\\user-service\\requirements.txt": {
+    "mtime": 1770924808.1308353,
+    "ast_hash": "d5ba6356cfa911c1eaa4bdb3616a0e49",
+    "semantic_hash": ""
+  },
+  "C:\\Users\\AEDMIN\\Desktop\\github-projects\\FastApi-Issue-tracker\\shared\\requirements.txt": {
+    "mtime": 1773835146.9091353,
+    "ast_hash": "9ccc72f4df0a875acf59314380ab635a",
+    "semantic_hash": ""
+  }
+}

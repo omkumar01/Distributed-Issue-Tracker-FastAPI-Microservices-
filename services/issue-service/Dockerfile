@@ -2,29 +2,17 @@ FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y gcc curl && rm -rf /var/lib/apt/lists/*
 
-# Copy shared modules
 COPY shared/ /app/shared/
+COPY services/issue-service/requirements.txt /app/requirements.txt
 
-# Copy requirements
-COPY services/issue-service/requirements.txt .
+RUN sed -i 's/\.\.\/\.\.\///g' /app/requirements.txt || true
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Fix relative path in requirements.txt (pointing to shared reqs)
-RUN sed -i 's|../../shared/requirements.txt|shared/requirements.txt|g' requirements.txt
+COPY services/issue-service/ /app/
 
-# Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
-
-# Copy application
-COPY services/issue-service/ .
-
-# Set PYTHONPATH
-ENV PYTHONPATH=/app:$PYTHONPATH
+ENV PYTHONPATH=/app
 
 EXPOSE 8000
-
-CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000", "--reload"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8000"]

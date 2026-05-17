@@ -1,34 +1,17 @@
-# Multi-stage build for API Gateway
-FROM python:3.11-slim as base
+FROM python:3.11-slim
 
 WORKDIR /app
 
-# Install system dependencies
-RUN apt-get update && apt-get install -y \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y gcc curl && rm -rf /var/lib/apt/lists/*
 
-# Copy shared modules first (needed for imports)
 COPY shared/ /app/shared/
+COPY services/api-gateway/requirements.txt /app/requirements.txt
 
-# Copy requirements for API Gateway
-COPY services/api-gateway/requirements.txt .
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Install Python dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+COPY services/api-gateway/ /app/
 
-# Set PYTHONPATH to include app directory
-ENV PYTHONPATH=/app:$PYTHONPATH
+ENV PYTHONPATH=/app
 
-# Copy API Gateway application code
-COPY services/api-gateway/ ./
-
-# Expose port
 EXPOSE 8000
-
-# Health check
-HEALTHCHECK --interval=150s --timeout=10s --start-period=40s --retries=3 \
-    CMD python -c "import httpx; httpx.get('http://localhost:8000/health')" || exit 1
-
-# Run the application
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
